@@ -12,4 +12,4 @@ num2 = int(input())
 ans = num1+num2
 
 # print the answer
-print(ans)
+print(f"The sum of {num1} and {num2} is {ans}")
