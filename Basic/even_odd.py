@@ -1,8 +1,4 @@
-#check na number is even or odd
-print("enter a number:: ")
-n=int(input())
-if(n%2==0):
-    print("number is even")
-else:
-    print("number is odd")
- 
+list = [10, 20, 43, 45, 67, 34]
+for num in list: 
+    if num % 2 == 0:
+        print(num)
