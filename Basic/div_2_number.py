@@ -1,8 +1,6 @@
-# divisable by 7 and multiple of 5
-
-start = 1500
-stop = 2700
-
-for i in range(start, stop + 1):
-    if(i % 7 == 0) and (i % 5 == 0):
-        print(i, end=" ")
+list=[10,23,14,65,7,21,45,63]
+num=int(input('enter your number'))
+for i in range(list):
+    print(list)
+    if(i%num==0):
+        print('divisable')

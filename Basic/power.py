@@ -1,7 +1,7 @@
-num1=int(input('enter your number:> '))
-result=1
-num2=int(input('enter the power:> '))
-while num2>0:
-    result=result*num1
-    num2=num2-1
-print(result)
+num=int(input('enter your number'))
+power=int(input('enter the range of powres'))
+temp=1
+for i in range(0,power):
+    temp=num**i
+    i+=1
+    print(temp)
